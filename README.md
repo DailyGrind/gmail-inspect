@@ -7,4 +7,5 @@ var GMAIL_SECURITY = {
 	// Developer Console, https://console.developers.google.com
 	CLIENT_ID: 'xxxxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.apps.googleusercontent.com',
 	SCOPES: [ 'https://www.googleapis.com/auth/gmail.readonly']
-}```
+}
+```

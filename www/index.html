@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <script type="text/javascript">
+    </script>
+    <script src="assets/js/plotly/plotly-latest.min.js"></script>
+    <script src="assets/js/gmailplot/gmailsecurity.js"></script>
+    <script src="assets/js/gmailplot/gmailapi.js"></script>
+    <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+  </head>
+  <body>
+    <div id="authorize-div" style="display: none">
+      <span>Authorize access to Gmail API</span>
+      <!--Button for the user to click to initiate auth sequence -->
+      <button id="authorize-button" onclick="handleAuthClick(event)">
+        Authorize
+      </button>
+    </div>
+    <div id='plotDiv'></div>
+    <!-- <pre id="output"></pre> -->
+  </body>
+  <script src="assets/js/gmailplot/gmailplot.js"></script>
+</html>
